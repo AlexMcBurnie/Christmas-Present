@@ -1,0 +1,111 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
+	color: #444444;
+	box-sizing: border-box;
+}
+
+img {
+	width: 100%;
+}
+
+header {
+	margin-top: 6rem;
+	font-size: 4rem;
+}
+
+h1 {
+	letter-spacing: 0.1rem;
+	font-weight: bold;
+	color: #444444;
+	
+}
+
+h1:first-child {
+	font-weight: bold;
+	color: #AB0C0C;
+
+}
+
+h2 {
+	margin: 2rem;
+	font-size: 2rem;
+	font-weight: bold;
+	letter-spacing: 0.5rem;
+}
+
+h3 {
+	font-size: 6rem;
+	font-weight: bold;
+	color: #AB0C0C;
+	z-index: 1;
+}
+
+h4 {
+	font-size: 1.75rem;
+	letter-spacing: 0.75rem;
+}
+
+main {
+	width: 90%;	
+	margin: 4rem auto;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+
+main h2 {
+	font-size: 1.5rem;
+	color: darkgrey;
+	margin: 0 0 2rem 0;
+}
+
+main p {
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #AB0C0C;
+	
+}
+
+.content {
+	width: 30%;
+	padding: 4rem 1rem;
+	border: solid 1px lightgrey;
+	
+}
+
+footer {
+	background-color: #AB0C0C;
+	padding: 2rem;
+	color: white;
+}
+
+footer h2 {
+	 margin: 0.5rem;
+}
+
+footer p {
+	letter-spacing: 0.2rem;
+}
+
+@media screen and (max-width: 1200px) {
+	
+	.content {
+		width: 42.5%;
+		margin: 1rem;
+	}
+	
+	.where {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	
+	.content {
+		width: 100%;
+	}
